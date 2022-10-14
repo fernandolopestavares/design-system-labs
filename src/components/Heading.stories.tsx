@@ -5,7 +5,7 @@ export default {
   title: 'Components/Heading',
   component: Heading,
   args: {
-    children: 'Lorem ipsum...',
+    children: 'Lorem ipsum.',
     size: 'md',
   },
   argTypes: {
@@ -31,7 +31,6 @@ export const Large: StoryObj<HeadingProps> = {
     size: 'lg'
   }
 }
-
 
 export const CustomComponent: StoryObj<HeadingProps> = {
   args: {
